@@ -31,7 +31,9 @@ public class MainActivity extends AppCompatActivity implements ItemClickCallBack
         decor.setDrawable(getResources().getDrawable(R.drawable.ic_div_h_10));
         mRecycleView.addItemDecoration(decor);
         mRecycleView.setAdapter(mCustomAdapter);
-
+        /**
+         *
+         */
         initData();
         mCustomAdapter.setData(mMainList);
         mTvItem.startPrint(3000, 100);
